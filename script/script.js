@@ -15,3 +15,9 @@ window.onscroll = function() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
+
+// Add this function to your script
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
