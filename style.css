@@ -1,4 +1,4 @@
-/* General Styles */
+/* Yleiset Tyylit */
 body, .header, .section {
     background: url('images/infotausta.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -7,7 +7,7 @@ body, .header, .section {
     background-size: cover;
 }
 
-/* Section Styles */
+/* Osion Tyylit */
 .section, .bgimage, .hero_title, .hero_desc, .hero_text {
     background-color: transparent;
     color: #ffffff;
@@ -15,14 +15,14 @@ body, .header, .section {
 
 .section {
     margin-top: 3rem;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 }
 
 .section:last-of-type {
     padding-bottom: 4rem;
 }
 
-/* Background Image Styles */
+/* Taustakuvan Tyylit */
 .bgimage {
     height:70vh;
     background: url('images/infotausta.jpg');
@@ -33,7 +33,7 @@ body, .header, .section {
     color: #ffffff;
 }
 
-/* Hero Styles */
+/* Sankarin Tyylit */
 .hero_title {
     padding-top: 3rem;
     font-size: 4.5rem;
@@ -54,21 +54,21 @@ body, .header, .section {
     color: #ffffff;
 }
 
-/* Image Styles */
+/* Kuvan Tyylit */
 .image-about{
     width: 100%;
 }
 
-/* Navbar Styles */
+/* Navigointipalkin Tyylit */
 .navbarDark {
     background: #1d1c1c;
 }
 
-/* Flip Card Styles */
+/* Kääntö Kortin Tyylit */
 .flip-card {
     background-color: transparent;
-    width: 350px; 
-    height: 250px; 
+    width: 320px; 
+    height: 220px; 
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
     border-radius: 15px; 
@@ -108,32 +108,19 @@ body, .header, .section {
     transform: rotateY(180deg);
 }
 
-/* Social Icons Styles */
-.social-icons {
-    font-size: 36px;
-    cursor: pointer;
-}
-
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover, 
-.fa-twitch:hover {
-    color: #fff;
-}
-
+/* Sosiaalisten Ikoneiden Tyylit 
 .fab {
     color: #000000;
 }
 
-/* Footer Styles */
+/* Alatunnisteen Tyylit 
 .footer {
     background-color: #808080;
     text-align: center;
     color: #ffffff;
-}
+} */
 
-/* Miscellaneous Styles */
+/* Sekalaiset Tyylit */
 .bi {
     font-size: 9em;
     display: flex;
@@ -154,7 +141,7 @@ h1.text-center {
     padding-top: 50px;
 }
 
-/* Button Styles */
+/* Nappien Tyylit */
 #myBtn {
     display: none;
     position: fixed;
@@ -168,7 +155,7 @@ h1.text-center {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 2px;
 }
 
 #myBtn:hover {
